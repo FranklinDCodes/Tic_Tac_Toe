@@ -1,0 +1,201 @@
+.layout {
+    display: grid;
+    row-gap: 2px;
+    column-gap: 2px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-bottom: 100%;
+    background-color: #53bbaf;
+    grid-template-rows: 90px 120px 120px 120px 50px 150px;
+    grid-template-columns: 120px 120px 120px 60px 360px;
+}
+
+.header {
+    grid-column: 1/6;
+    grid-row: 1;
+    font-size: 36pt;
+    overflow: visible;
+    margin: auto;
+    padding-right: 540px;
+}
+
+.updates {
+    grid-column: 1/4;
+    grid-row: 5;
+    background-color: #59a279;
+    border: 2px solid rgb(0, 0, 0);
+    font: 15pt Arial;
+    text-align: center;
+    padding: 3%
+}
+
+.winsPanel {
+    grid-column: 5;
+    grid-row: 2/4;
+    display: grid;
+    background-color: #74c2b9;
+    border: 2px solid rgb(0, 0, 0);
+    grid-template-rows: 60px 40px;
+    grid-template-columns: 120px 120px 120px;
+}
+
+.wins {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 24pt;
+    overflow: visible;
+    padding-left: 20px;
+}
+
+.X{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 24pt;
+    overflow: visible;
+    text-align: center;
+}
+
+.O{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 24pt;
+    overflow: visible;
+    text-align: center;
+}
+
+.C{
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 14pt;
+    overflow: visible;
+    text-align: center;
+    padding-top: 15px
+}
+
+.l0{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 24pt;
+    overflow: visible;
+    text-align: center;
+}
+
+.l1{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 24pt;
+    overflow: visible;
+    text-align: center;
+}
+
+.l2{
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 24pt;
+    overflow: visible;
+    text-align: center;
+}
+
+.xWins{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 48pt;
+    overflow: visible;
+    text-align: center;
+}
+
+.oWins{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 48pt;
+    text-align: center;
+}
+
+.cWins{
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 48pt;
+    text-align: center;
+}
+
+.errs {
+    grid-column: 1/4;
+    grid-row: 6;
+    background: grey;
+    border: 2px solid rgb(68, 68, 68);
+    font: 15pt Arial;
+    text-align: center;
+    padding: 3%
+}
+
+.b0 {
+    grid-column: 1;
+    grid-row: 2;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.b1 {
+    grid-column: 2;
+    grid-row: 2;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.b2 {
+    grid-column: 3;
+    grid-row: 2;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.b3 {
+    grid-column: 1;
+    grid-row: 3;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.b4 {
+    grid-column: 2;
+    grid-row: 3;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.b5 {
+    grid-column: 3;
+    grid-row: 3;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.b6 {
+    grid-column: 1;
+    grid-row: 4;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.b7 {
+    grid-column: 2;
+    grid-row: 4;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+.b8 {
+    grid-column: 3;
+    grid-row: 4;
+    font: 80pt Arial, Black;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
